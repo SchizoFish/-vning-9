@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 238, 144) !important;
+}
+
+header, h2, form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 2px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+form input, form button{
+    border: none;
+}
+
+form button{
+    background-color: rgb(14, 226, 14);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+form button:hover{
+    background-color: rgb(90, 247, 90);
+}
+
+ol, ul {
+    padding-left: 0rem !important;
+}
+
+li{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+.form-bg{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 250px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-items{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.remove-btn{
+    background-color: rgb(211, 0, 0);
+    width: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.remove-btn:hover{
+    background-color: rgb(255, 0, 0);
+    width: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: lightgrey;
+    color: white;
+}
+
+.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+#listID{
+    list-style: none;
+} 
+
+#main-list{
+    background-color: rgb(255, 255, 255, 0.5);
+    min-height: 250px;
+    max-width: 700px !important;
+}

@@ -1,0 +1,25 @@
+body, html {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    height: 50px;
+    background-color: burlywood !important;
+}
+
+.footer{
+    height: 25px;
+    background-color: burlywood;
+}
+
+.button{
+    background-color: burlywood !important;
+    max-width: 100px !important;
+}
+
+#information{
+    margin-top: 20px;
+}
